@@ -2,7 +2,7 @@ spring:
   datasource:
     #   基本配置
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3307/demo_db?useSSL=false&&serverTimezone=GMT%2B8
+    url: jdbc:mysql://127.0.0.1:3307/demo_db?useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
     username: root
     password: ymj15345
     type: com.alibaba.druid.pool.DruidDataSource

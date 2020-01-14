@@ -52,12 +52,22 @@ class SpringBoot01MybatisApplicationTests {
         /*Department department = departmentMapper.getDeptById(1);
         System.out.println(department);*/
 
-        Department department = departmentMapper.getDeptByIdStep(1);
+        /*Department department = departmentMapper.getDeptByIdStep(1);
         System.out.println(department);
         List<Employee> emps = department.getEmps();
         for (Employee emp:emps) {
             System.out.println(emp);
-        }
+        }*/
+
+        /*Department department = new Department(null, "研发部");
+        Boolean flag = departmentMapper.insertDept(department);
+        System.out.println(flag);*/
+
+        List<Department> depts = new ArrayList<>();
+        depts.add(new Department(null, "财务部"));
+        depts.add(new Department(null, "创意部"));
+        Boolean temp = departmentMapper.insertDepts(depts);
+        System.out.println(temp);
     }
 
 }

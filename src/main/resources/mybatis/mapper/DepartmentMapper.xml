@@ -13,6 +13,7 @@
             <result column="gender" property="gender"/>
         </collection>
     </resultMap>
+    <!--select operation-->
     <select id="getDeptById" resultType="com.demo.springbootmybatis.bean.Department">
         select * from department where id=#{id}
     </select>
@@ -30,4 +31,14 @@
     <select id="getDeptByIdStep" resultMap="MyDeptStep">
         select * from department where id=#{id}
     </select>
+    <!--insert operation-->
+    <insert id="insertDept">
+        insert into department (dept_name) values
+        (dept_name=#{deptName})
+    </insert>
+    <insert id="insertDepts">
+        <foreach collection="depts" item="dept" separator=";">
+            insert into department (dept_name) values (#{dept.deptName})
+        </foreach>
+    </insert>
 </mapper>
