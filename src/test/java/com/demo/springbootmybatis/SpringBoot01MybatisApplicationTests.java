@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -32,9 +33,17 @@ class SpringBoot01MybatisApplicationTests {
         Boolean b = employeeMapper.insertEmpById(employee);
         System.out.println(b);*/
 
-        Map<Integer, Employee> emps = employeeMapper.getEmpsByDeptId(1);
+        /*Map<Integer, Employee> emps = employeeMapper.getEmpsByDeptId(1);
         for (Map.Entry<Integer, Employee> emp : emps.entrySet()) {
             System.out.println(emp.getKey()+":"+emp.getValue());
+        }*/
+
+        List<Integer> ids = new ArrayList<>();
+        ids.add(1); ids.add(10); ids.add(9);
+        List<Employee> emps = employeeMapper.getEmpsByIdForearch(ids);
+        if(emps.isEmpty()) System.out.println("The result set is empty.");
+        for (Employee emp:emps) {
+            System.out.println(emp);
         }
     }
 
