@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.springbootmybatis.Mapper.EmployeeMapper">
+    <resultMap id="MyEmpWithDeptName" type="com.demo.springbootmybatis.bean.Employee">
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="email" property="email"/>
+        <result column="gender" property="gender"/>
+        <association property="department" javaType="com.demo.springbootmybatis.bean.Department">
+            <id column="d_id" property="id"/>
+            <result column="dept_name" property="deptName"/>
+        </association>
+    </resultMap>
+    <!--select operation-->
+    <select id="getEmpById" resultType="com.demo.springbootmybatis.bean.Employee">
+        select * from employee where id=#{id}
+    </select>
+    <select id="getEmpAndDept" resultMap="MyEmpWithDeptName">
+        select e.id id, e.last_name last_name, e.email email, e.gender gender,
+        d.id d_id, d.dept_name dept_name from employee e, department d
+        where e.id=d.id and e.id=#{id}
+    </select>
+    <select id="getEmpsByDeptId" resultType="com.demo.springbootmybatis.bean.Employee">
+        select * from employee where d_id=#{did}
+    </select>
+    <!--insert operation-->
+    <insert id="insertEmpById">
+        insert into employee (last_name, email, gender, d_id) values
+        (#{lastName}, #{email}, #{gender}, #{department.id})
+    </insert>
+    <!--update operation-->
+    <update id="updateEmpById">
+        update employee
+        <trim prefix="set" suffixOverrides=",">
+            <if test="lastName!=null">
+                last_name=#{lastName},
+            </if>
+            <if test="email!=null and email.trim()!=&quot;&quot;">
+                email=#{email},
+            </if>
+            <if test="gender==0 or gender==1">
+                gender=#{gender},
+            </if>
+            d_id=#{department.id},
+        </trim>
+        where id=#{id}
+    </update>
+    <!--delete operation-->
+    <delete id="deleteEmpById">
+        delete from employee where id=#{id}
+    </delete>
+</mapper>
