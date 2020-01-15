@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d640ff-c3ac-4bed-8663-255638adfaac" name="Default Changelist" comment="Department Operation Finish">
+    <list default="true" id="f1d640ff-c3ac-4bed-8663-255638adfaac" name="Default Changelist" comment="Web initializes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/component/LoginHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/config/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/component/LoginHandlerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/config/MyMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/Mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/Mapper/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/Mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/Mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/config/DruidConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/config/DruidConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/DepartmentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +27,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -45,6 +73,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -53,9 +82,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringBoot01MybatisApplicationTests.testDepartment">
+  <component name="RunManager" selected="Spring Boot.SpringBoot01MybatisApplication">
     <configuration name="SpringBoot01MybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-01-mybatis" />
       <extension name="coverage">
@@ -97,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringBoot01MybatisApplicationTests.testDepartment" />
         <item itemvalue="JUnit.SpringBoot01MybatisApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringBoot01MybatisApplicationTests.testDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -127,8 +156,19 @@
       <workItem from="1578641657866" duration="17294000" />
       <workItem from="1578968882723" duration="4029000" />
       <workItem from="1578975657291" duration="6339000" />
-      <workItem from="1578983583533" duration="6205000" />
+      <workItem from="1578983583533" duration="10332000" />
+      <workItem from="1579000044639" duration="984000" />
+      <workItem from="1579002550735" duration="4271000" />
+      <workItem from="1579053726073" duration="246000" />
     </task>
+    <task id="LOCAL-00001" summary="Department Operation Finish">
+      <created>1578990308583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578990308614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,64 +176,84 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Department Operation Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Department Operation Finish" />
+    <MESSAGE value="Web initializes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web initializes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#SQL_Dialects" timestamp="1578643431547">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="7" key="#SQL_Dialects/0.0.1280.689@0.0.1280.689" timestamp="1578643431547" />
-    <state x="668" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1578969454469">
+    <state x="668" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1579004188339">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="668" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1578969454469" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1578990267467">
+    <state x="668" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1579004188339" />
+    <state x="629" y="71" key="#xdebugger.evaluate" timestamp="1578993667036">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1578990267467" />
-    <state x="63" y="56" key="FileChooserDialogImpl" timestamp="1578983884507">
+    <state x="629" y="71" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1578993667036" />
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1579053977738">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="63" y="56" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1578983884507" />
-    <state width="1222" height="183" key="GridCell.Tab.0.bottom" timestamp="1578990267780">
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1579053977738" />
+    <state x="63" y="56" key="FileChooserDialogImpl" timestamp="1579000292318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="183" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1578990267780" />
-    <state width="1222" height="183" key="GridCell.Tab.0.center" timestamp="1578990267780">
+    <state x="63" y="56" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1579000292318" />
+    <state width="1222" height="182" key="GridCell.Tab.0.bottom" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="183" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1578990267780" />
-    <state width="1222" height="183" key="GridCell.Tab.0.left" timestamp="1578990267780">
+    <state width="1222" height="182" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.0.center" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="183" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1578990267780" />
-    <state width="1222" height="183" key="GridCell.Tab.0.right" timestamp="1578990267780">
+    <state width="1222" height="182" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.0.left" timestamp="1579006996282">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="183" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1578990267780" />
-    <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1578987081528">
+    <state width="1222" height="182" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1579006996282" />
+    <state width="1222" height="182" key="GridCell.Tab.0.right" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1578987081528" />
-    <state width="1237" height="207" key="GridCell.Tab.1.center" timestamp="1578987081528">
+    <state width="1222" height="182" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.1.bottom" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1578987081528" />
-    <state width="1237" height="207" key="GridCell.Tab.1.left" timestamp="1578987081528">
+    <state width="1222" height="182" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.1.center" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1578987081528" />
-    <state width="1237" height="207" key="GridCell.Tab.1.right" timestamp="1578987081528">
+    <state width="1222" height="182" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.1.left" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1578987081528" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1578979073502">
+    <state width="1222" height="182" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.1.right" timestamp="1579006996298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1578979073502" />
-    <state x="209" y="65" width="672" height="678" key="search.everywhere.popup" timestamp="1578988121283">
+    <state width="1222" height="182" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1579006614961">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="209" y="65" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1578988121283" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1579006614961" />
+    <state x="121" y="51" key="Vcs.Push.Dialog.v2" timestamp="1578990466312">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="121" y="51" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1578990466312" />
+    <state x="149" y="85" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578993711775">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="149" y="85" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.689@0.0.1280.689" timestamp="1578993711775" />
+    <state x="209" y="65" width="672" height="678" key="search.everywhere.popup" timestamp="1579002788475">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="209" y="65" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1579002788475" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="ids" language="JAVA" custom="javax.sound.midi.MidiSystem" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
