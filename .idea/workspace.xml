@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d640ff-c3ac-4bed-8663-255638adfaac" name="Default Changelist" comment="Web initializes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/component/LoginHandlerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springbootmybatis/config/MyMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/component/LoginHandlerInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/config/MyMvcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f1d640ff-c3ac-4bed-8663-255638adfaac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/Mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/springbootmybatis/Mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/springbootmybatis/SpringBoot01MybatisApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/login_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/i18n/login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +147,7 @@
       <workItem from="1578983583533" duration="10332000" />
       <workItem from="1579000044639" duration="984000" />
       <workItem from="1579002550735" duration="4271000" />
-      <workItem from="1579053726073" duration="246000" />
+      <workItem from="1579053726073" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="Department Operation Finish">
       <created>1578990308583</created>
@@ -168,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578990308614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Web application initializes but has some bug">
+      <created>1579054117189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579054117189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +172,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Department Operation Finish" />
     <MESSAGE value="Web initializes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web initializes" />
+    <MESSAGE value="Web application initializes but has some bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web application initializes but has some bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="7" key="#SQL_Dialects" timestamp="1578643431547">
@@ -192,46 +188,46 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="629" y="71" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1578993667036" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1579053977738">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1579054113971">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1579053977738" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1579054113971" />
     <state x="63" y="56" key="FileChooserDialogImpl" timestamp="1579000292318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="63" y="56" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1579000292318" />
-    <state width="1222" height="182" key="GridCell.Tab.0.bottom" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.0.bottom" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.0.center" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.0.center" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.0.left" timestamp="1579006996282">
+    <state width="1222" height="182" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.0.left" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1579006996282" />
-    <state width="1222" height="182" key="GridCell.Tab.0.right" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.0.right" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.1.bottom" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.1.bottom" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.1.center" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.1.center" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.1.left" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.1.left" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
-    <state width="1222" height="182" key="GridCell.Tab.1.right" timestamp="1579006996298">
+    <state width="1222" height="182" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
+    <state width="1222" height="182" key="GridCell.Tab.1.right" timestamp="1579054957601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="182" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1579006996298" />
+    <state width="1222" height="182" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1579054957601" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1579006614961">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
