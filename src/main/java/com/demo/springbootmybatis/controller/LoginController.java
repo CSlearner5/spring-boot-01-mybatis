@@ -18,13 +18,13 @@ public class LoginController {
     @Autowired
     EmployeeMapper employeeMapper;
 
-    @PostMapping("/user/login")
-    public String login(@RequestParam("empName") Integer empName,
-                        @RequestParam("empPassword") String empPassword,
+    @PostMapping("/login/emp")
+    public String login(@RequestParam("empId") Integer empId,
+                        @RequestParam("empName") String empName,
                         Map<String, Object> map, HttpSession session) {
-        Employee employee = employeeMapper.getEmpById(empName);
-        if(employee != null && empPassword.equals(employee.getLastName())) {
-            session.setAttribute("loginUser", empName);
+        Employee employee = employeeMapper.getEmpById(empId);
+        if(employee != null && empName.equals(employee.getLastName())) {
+            session.setAttribute("loginEmp", empId);
             return "redirect:/main.html";
         }else {
             map.put("msg", "用户密码错误");
