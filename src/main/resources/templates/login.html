@@ -5,10 +5,11 @@
     <title>Company</title>
 </head>
 <body>
-    <form th:action="@{/user/login}" method="post">
-        <input type="text" name="empName" th:placeholder="#{login.empName}"/>
-        <input type="password" name="empPassword" th:placeholder="#{login.empPassword}"/>
-        <button type="submit" th:text="#{login.btn}"/>
-    </form>
+<p th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+<form th:action="@{/user/login}" method="post">
+    <input type="text" name="empName" th:placeholder="#{login.empName}"/><br/>
+    <input type="password" name="empPassword" th:placeholder="#{login.empPassword}"/><br/>
+    <button type="submit" th:text="#{login.btn}"/>
+</form>
 </body>
 </html>
