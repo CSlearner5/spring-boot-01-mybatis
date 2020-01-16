@@ -5,6 +5,7 @@
     <title>Company</title>
 </head>
 <body>
-<a href="#">[[${session.loginEmp}]]</a>
+<a th:href="@{/empmessage}" th:text="${param.get('empName')}"></a>
+
 </body>
 </html>

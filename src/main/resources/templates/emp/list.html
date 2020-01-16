@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Message</title>
+</head>
+<body>
+<ul>
+    <li><span>职工id:</span>[[${emp.id}]]</li>
+    <li><span>职工姓名:</span>[[${emp.lastName}]]</li>
+    <li><span>职工邮箱:</span>[[${emp.email}]]</li>
+    <li th:if="${emp.gender=='0'}"><span>职工性别:</span>男</li>
+    <li th:if="${emp.gender=='1'}"><span>职工性别:</span>女</li>
+</ul>
+</body>
+</html>
